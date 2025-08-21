@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:light}
+body{@apply bg-ivory text-ink font-sans}
+a{@apply underline-offset-4}a:hover{@apply underline}
+.nav-item{@apply relative}.nav-item:hover .dropdown{@apply opacity-100 pointer-events-auto translate-y-0}.dropdown{@apply absolute left-0 mt-2 w-56 rounded-xl border bg-white p-2 shadow-lg opacity-0 pointer-events-none -translate-y-1 transition}.dropdown a{@apply block rounded-lg px-3 py-2 no-underline hover:bg-slate-50}
+.h1{@apply font-serif font-bold text-4xl md:text-5xl}.h2{@apply font-serif text-3xl md:text-4xl}.h3{@apply font-serif text-2xl md:text-3xl}.lead{@apply text-base md:text-lg text-ink/80}.quote{@apply font-serif italic text-xl md:text-2xl}.small{@apply text-sm text-mute}

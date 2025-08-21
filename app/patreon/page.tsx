@@ -1,0 +1,2 @@
+import site from '@/site.config.json'
+export default function PatreonPage(){return(<div className='container py-10'><h1 className='h1'>Patreon</h1><p className='mt-2'>Support ongoing work.</p><ul className='mt-6 list-disc pl-6'><li>{site.social.patreon? <a href={site.social.patreon} target='_blank' className='no-underline'>Become a Patron</a> : 'Add your Patreon link in site.config.json'}</li></ul></div>)}
